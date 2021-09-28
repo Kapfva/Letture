@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('');
+    return view('welcome');
 });
-Route::get('/k', function () {
-    return view('k');
+Route::get('/kai', function () {
+    return view('kai');
 });
